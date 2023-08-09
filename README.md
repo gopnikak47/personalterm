@@ -1,4 +1,4 @@
-# [💻 LiveTerm - build terminal styled websites in minutes!](https://liveterm.vercel.app)
+# [💻 [Original LiveTerm's README] LiveTerm - build terminal styled websites in minutes!](https://liveterm.vercel.app)
 
 Highly customizable, easy-to-use, and minimal terminal styled website template, powered by Next.js.
 
@@ -6,7 +6,7 @@ Building a simple website with LiveTerm only takes **minutes**, and you only nee
 
 LiveTerm can be used to build a variety of websites:
 
-- [personal website](https://cveinnt.com)
+- [Vincent's personal website](https://cveinnt.com)
 - [browser startpage](https://livetermstart.vercel.app/)
 - [project page](https://liveterm.vercel.app/)
 - or maybe just a cool browser music player...be creative!
