@@ -5,11 +5,12 @@
 @font-face {
   font-family: 'Hack';
   src: url(/assets/fonts/Hack-NF.ttf);
-  display: swap;
+  font-display: swap;
 }
 
 * {
   font-family: 'Hack', monospace;
+  box-sizing: border-box;
 }
 
 html,
@@ -18,7 +19,9 @@ body > div:first-child,
 div#__next,
 div#__next > div {
   height: 100%;
-  overflow: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent content overflow */
 }
 
 ::-webkit-scrollbar {
