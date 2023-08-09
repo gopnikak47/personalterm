@@ -30,7 +30,7 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội. 
+  return `Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội, đồng thời cũng là một kẻ đam mê công nghệ, du lịch và nhiếp ảnh. Tớ còn là một fan của Manchester United nữa hihi =)) 
 Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
 'sumfetch' - một chút gì đó của tớ.
 'resume' - resume của tớ (thực ra tớ lười làm resume lắm, để hôm khác nhé!).
@@ -156,10 +156,11 @@ export const banner = (args?: string[]): string => {
   ╚═╝  ╚═╝╚═╝╚═╝
                 
                          
-Chào mừng cậu đến với web cá nhân của tớ!
+Chào mừng cậu đến với web cá nhân của Hải Anh!
 Cậu có thể gõ một số lệnh:
-Gõ 'help' để xem các lệnh có thể sử dụng được.
+Gõ 'about' trước tiên để biết tớ.
 Gõ 'sumfetch' để xem thông tin của tớ.
+Gõ 'help' để xem các lệnh có thể sử dụng được.
 Gõ 'repo' hoặc bấm <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">cái này</a></u> để xem repo GitHub của web này.
 Btw, web này được forked từ LiveTerm của Cveinnt. Check it out.
 `;
