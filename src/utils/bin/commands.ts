@@ -32,9 +32,9 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội, đồng thời cũng là một kẻ đam mê công nghệ, du lịch và nhiếp ảnh. Tớ còn là một fan của Manchester United nữa hihi =)) 
 Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
-'sumfetch' - một chút gì đó của tớ.
+'sumfetch' - một chút thông tin gì đó của tớ.
 'resume' - resume của tớ (thực ra tớ lười làm resume lắm, để hôm khác nhé!).
-'readme' - github readme của tớ.`;
+'readme' - README trên GitHub của tớ.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
