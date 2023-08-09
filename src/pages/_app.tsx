@@ -25,7 +25,7 @@ const App: React.FC<any> = ({ Component, pageProps }) => {
         className="text-light-foreground dark:text-dark-foreground min-w-full text-xs md:text-base"
         onClick={onClickAnywhere}
         style={{
-          minHeight: '100vh', // Ensure full viewport coverage
+          minHeight: '80vh', // Ensure full viewport coverage
           display: 'flex',
           flexDirection: 'column',
         }}
