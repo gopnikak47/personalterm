@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
+import { randompics } from '../utils/bin/api_commands';
 
 const App: React.FC<any> = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement | null>(null);
+  const [pictureUrl, setPictureUrl] = useState<string | null>(null);
 
   const onClickAnywhere = () => {
     if (inputRef.current) {
@@ -38,6 +40,10 @@ const App: React.FC<any> = ({ Component, pageProps }) => {
         >
           <Component {...pageProps} inputRef={inputRef} />
         </main>
+        {pictureUrl && (
+          // Display picture on the page
+          <img src={pictureUrl} alt="Random Picture" />
+        )}
       </div>
     </>
   );

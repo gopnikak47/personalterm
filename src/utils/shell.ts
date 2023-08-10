@@ -14,13 +14,13 @@ export const shell = async (
     clearHistory();
   } else if (command === '') {
     setHistory('');
-  } else if (Object.keys(bin).indexOf(args[0]) === -1) {
+  } else if (args[0] in bin) {
+    const output = await bin[args[0]](args.slice(1));
+    setHistory(output);
+  } else {
     setHistory(
       `shell: không tìm thấy lệnh: ${args[0]}. Thử gõ 'help' xem.`,
     );
-  } else {
-    const output = await bin[args[0]](args.slice(1));
-    setHistory(output);
   }
 
   setCommand('');

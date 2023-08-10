@@ -28,3 +28,13 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const getBingPictureOfTheDay = async () => {
+  const { data } = await axios.get('/api/picture');
+  return data.url as string;
+};
+
+export const getCatPictures = async () => {
+  const { data } = await axios.get('/api/catpics');
+  return data.url as string;
+};

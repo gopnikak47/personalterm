@@ -1,9 +1,11 @@
-// // List of commands that require API calls
+// List of commands that require API calls
 
 import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
+import { getBingPictureOfTheDay } from '../api';
+import { getCatPictures } from '../api';
 
 export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
@@ -33,4 +35,14 @@ export const weather = async (args: string[]): Promise<string> => {
   }
   const weather = await getWeather(city);
   return weather;
+};
+
+export const randompics = async (args: string[]): Promise<string> => {
+  const picture = await getBingPictureOfTheDay();
+  return `<img src="${picture}" />`;
+};
+
+export const catpics = async (args: string[]): Promise<string> => {
+  const catpics = await getCatPictures();
+  return `<img src="${catpics}" />`;
 };
