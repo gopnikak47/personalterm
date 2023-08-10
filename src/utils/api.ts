@@ -38,3 +38,8 @@ export const getCatPictures = async () => {
   const { data } = await axios.get('/api/catpics');
   return data.url as string;
 };
+
+export const getDogPictures = async () => {
+  const { data } = await axios.get('/api/dogpics');
+  return data.url as string;
+};

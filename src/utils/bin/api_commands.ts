@@ -1,6 +1,6 @@
 // List of commands that require API calls
 
-import { getProjects } from '../api';
+import { getDogPictures, getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
@@ -44,5 +44,10 @@ export const randompics = async (args: string[]): Promise<string> => {
 
 export const catpics = async (args: string[]): Promise<string> => {
   const catpics = await getCatPictures();
+  return `<img src="${catpics}" />`;
+};
+
+export const dogpics = async (args: string[]): Promise<string> => {
+  const dogpics = await getDogPictures();
   return `<img src="${catpics}" />`;
 };
