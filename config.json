@@ -19,22 +19,49 @@
   },
   "colors": {
     "light": {
-      "background": "#FFFFDB",
-      "foreground": "#282a36",
-      "yellow": "#ffb86c",
-      "green": "#50fa7b",
-      "gray": "#8B6BB9",
-      "blue": "#67AFC0",
-      "red": "#ff5555"
+      "background":"#fefbec",
+      "foreground":"#6e6b5e",
+      "cursor.background":"#6e6b5e",
+      "cursor.foreground":"#6e6b5e", 
+      "black":"#fefbec",
+      "blue":"#6684e1",
+      "brightblack":"#999580",
+      "brightblue":"#6684e1",
+      "brightcyan":"#1fad83",
+      "brightgreen":"#60ac39",
+      "brightmagenta":"#b854d4",
+      "brightred":"#d73737",
+      "brightwhite":"#20201d",
+      "brightyellow":"#ae9513",
+      "cyan":"#1fad83",
+      "green":"#60ac39",
+      "magenta":"#b854d4",
+      "red":"#d73737",
+      "white":"#6e6b5e",
+      "yellow":"#ae9513"
     },
     "dark": {
-      "background": "#282a36",
-      "foreground": "#f8f8f2",
-      "yellow": "#ffb86c",
-      "green": "#50fa7b",
-      "gray": "#bd93f9",
-      "blue": "#8be9fd",
-      "red": "#ff5555"
+      "background":"#20201D",
+      "foreground":"#A6A28C",
+      "terminalcursor.background":"#a6a28c",
+      "terminalcursor.foreground":"#a6a28c",
+      "black":"#20201d",
+      "blue":"#6684e1",
+      "brightblack":"#7d7a68",
+      "brightblue":"#6684e1",
+      "brightcyan":"#1fad83",
+      "brightgreen":"#60ac39",
+      "brightmagenta":"#b854d4",
+      "brightred":"#d73737",
+      "brightwhite":"#fefbec",
+      "brightyellow":"#ae9513",
+      "cyan":"#1fad83",
+      "green":"#60ac39",
+      "magenta":"#b854d4",
+      "red":"#d73737",
+      "white":"#a6a28c",
+      "yellow":"#ae9513"
+
     }
   }
 }
