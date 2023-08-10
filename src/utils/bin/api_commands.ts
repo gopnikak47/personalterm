@@ -49,5 +49,5 @@ export const catpics = async (args: string[]): Promise<string> => {
 
 export const dogpics = async (args: string[]): Promise<string> => {
   const dogpics = await getDogPictures();
-  return `<img src="${catpics}" />`;
+  return `<img src="${dogpics}" />`;
 };
