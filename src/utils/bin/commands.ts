@@ -156,13 +156,10 @@ export const banner = (args?: string[]): string => {
   ╚═╝  ╚═╝╚═╝╚═╝
                 
                          
-Chào mừng cậu đến với web cá nhân của Hải Anh!
-Cậu có thể gõ một số lệnh:
-Gõ 'about' trước tiên để biết tớ.
-Gõ 'sumfetch' để xem thông tin của tớ.
-Gõ 'help' để xem các lệnh có thể sử dụng được.
-Gõ 'repo' hoặc bấm <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">cái này</a></u> để xem repo GitHub của web này.
-Gõ 'catpics' để xem mèo (tớ rất yêu mèo) hoặc 'dogpics' cho bạn nào yêu chó như mình =))
-Btw, web này được forked từ LiveTerm của Cveinnt. Check it out.
+Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội kiêm CEO Công ty Trách nhiệm Hữu hạn Tự Nhiên Thấy Đói, đồng thời cũng là một kẻ đam mê công nghệ, du lịch, nhiếp ảnh và ăn uống. Một phút boi chính hiệu =)) ngoài ra tớ còn là một fan của Manchester United nữa hihi. Nhân tiện, tớ rất yêu chó mèo, nên các cậu có thể sử dụng lệnh 'catpics' để xem mèo, hay 'dogpics' để xem chó nha
+Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
+'sumfetch' - một chút thông tin gì đó của tớ.
+'resume' - resume của tớ (thực ra tớ lười làm resume lắm, để hôm khác nhé!).
+'readme' - README trên GitHub của tớ.
 `;
 };
