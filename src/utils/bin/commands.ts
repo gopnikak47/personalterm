@@ -155,7 +155,7 @@ export const banner = (args?: string[]): string => {
   ██║  ██║██║██╗
   ╚═╝  ╚═╝╚═╝╚═╝
                 
-                         
+
 Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội kiêm CEO Công ty Trách nhiệm Hữu hạn Tự Nhiên Thấy Đói, đồng thời cũng là một kẻ đam mê công nghệ, du lịch, nhiếp ảnh và ăn uống. Một phút boi chính hiệu =)) ngoài ra tớ còn là một fan của Manchester United nữa hihi. Nhân tiện, tớ rất yêu chó mèo, nên các cậu có thể sử dụng lệnh 'catpics' để xem mèo, hay 'dogpics' để xem chó nha
 Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
 'sumfetch' - một chút thông tin gì đó của tớ.
