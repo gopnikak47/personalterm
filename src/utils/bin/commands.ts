@@ -161,5 +161,6 @@ Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
 'sumfetch' - một chút thông tin gì đó của tớ.
 'resume' - resume của tớ (thực ra tớ lười làm resume lắm, để hôm khác nhé!).
 'readme' - README trên GitHub của tớ.
+'help' - Xem thêm các lệnh cậu có thể sử dụng.
 `;
 };
