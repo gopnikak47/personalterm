@@ -157,10 +157,10 @@ export const banner = (args?: string[]): string => {
                 
 
 Xin chàoooooo, tớ là ${config.name} đây, sinh viên K18 Khoa Công nghệ Đa phương tiện, Đại học Công nghiệp Hà Nội kiêm CEO Công ty Trách nhiệm Hữu hạn Tự Nhiên Thấy Đói, đồng thời cũng là một kẻ đam mê công nghệ, du lịch, nhiếp ảnh và ăn uống. Một phút boi chính hiệu =)) ngoài ra tớ còn là một fan của Manchester United nữa hihi. Nhân tiện, tớ rất yêu chó mèo, nên các cậu có thể sử dụng lệnh 'catpics' để xem mèo, hay 'dogpics' để xem chó nha
-Cậu muốn xem thêm về tớ? Hãy gõ lệnh:
+Cậu muốn xem thêm về tớ? Cậu có thể gõ một trong những lệnh sau (nhớ bỏ ' rồi gõ nhé):
 'sumfetch' - một chút thông tin gì đó của tớ.
-'resume' - resume của tớ (thực ra tớ lười làm resume lắm, để hôm khác nhé!).
-'readme' - README trên GitHub của tớ.
-'help' - Xem thêm các lệnh cậu có thể sử dụng.
+'help' - xem thêm các lệnh cậu có thể sử dụng.
+<u><a href="https://facebook.com/${config.social.facebook}" target="_blank">cậu có thể bấm để xem Facebook của tớ</a></u>
+<u><a href="https://instagram.com/${config.social.instagram}" target="_blank">cậu có thể bấm để xem Instagram của tớ</a></u>
 `;
 };
